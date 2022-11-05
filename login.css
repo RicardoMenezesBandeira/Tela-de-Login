@@ -1,0 +1,70 @@
+/*
+import font do google
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+
+*{/*set configs basicas para iniciar*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1em;
+    
+    vertical-align: middle;
+}
+
+body{
+    background: radial-gradient( farthest-corner at 50% 50%,#f35 0%, #43e 100%);/*gradient inicial*/
+   
+}
+.fundo{
+    background-image: url("/runas.png");
+}
+.painel{      
+    border-radius: 10px 0 10px 0;
+    height: 50vh;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 100px;
+    backdrop-filter: blur(5px);
+    font-size: 5ch;
+    text-align: center;
+    margin: 0 10px  0 10px;
+}
+
+.campo{
+    font-size: 15px;
+    margin: 50px 0px ;
+    /*vertical-align: middle;*/
+
+}
+
+@media screen and (max-width: 991px) {
+    .painel{      
+        border-radius: 10px 0 10px 0;
+        height: 48vh;
+        background: rgba(0, 0, 0, 0);
+        
+        padding: 20px;
+        margin: 100px 100px 0 10px;
+        backdrop-filter: blur(0px);
+        font-size: 5ch;
+        text-align: center;
+       /* vertical-align: middle;*/
+    }
+    
+    .campo{
+        font-size: 15px;
+        margin: 25px 100px ;
+        /*vertical-align: middle;*/
+    
+    }
+    #h2{
+        position: absolute;
+        top:50%;
+
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-weight: bold;
+    }
+  }
+
