@@ -26,7 +26,8 @@ body{
     background: rgba(0, 0, 0, 0.1);
     padding: 100px;
     backdrop-filter: blur(5px);
-    font-size: 5ch;
+    font-size: 2ch;
+    color: black;
     text-align: center;
     margin: 0 10px  0 10px;
 }
@@ -49,7 +50,8 @@ body{
         backdrop-filter: blur(0px);
         font-size: 5ch;
         text-align: center;
-       /* vertical-align: middle;*/
+        font-size: 2ch;
+    color: black;
     }
     
     .campo{
